@@ -1,5 +1,6 @@
 FROM debian:bullseye-slim
-MAINTAINER Odoo S.A. <info@odoo.com>
+LABEL maintainer="Sursa Technology Pvt. Ltd. <info@sursatech.com>"
+LABEL org.opencontainers.image.description Odoo 16.0 with db name as env file
 
 SHELL ["/bin/bash", "-xo", "pipefail", "-c"]
 
